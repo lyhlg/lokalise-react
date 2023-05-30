@@ -1,0 +1,313 @@
+{
+  "point": {
+    "offlinePointRedemption": {
+      "available": "会計時にポイントが使えるクリニックです。",
+      "unavailable": "ポイントが利用できないクリニックです。"
+    },
+    "offlinePointRedeemBanner": {
+      "title": "ポイントが使えます！",
+      "description": "お会計前であれば1ポイント=1円としてポイントをご利用いただけます。",
+      "button": "ポイントを使う"
+    }
+  },
+  "common": {
+    "title": "来院予約の申し込み",
+    "changeReservatonTitle": "予約変更",
+    "preview": {
+      "title": "ご来院希望日程"
+    },
+    "confirm": {
+      "title": "この画面から離れると入力途中のデータはすべて破棄されます。来院予約の申請をキャンセルしますか？",
+      "message": "",
+      "okText": "はい",
+      "cancelText": "いいえ"
+    },
+    "toast": {
+      "failToRequestFromServer": "予約枠が埋まったか、一時的なエラーにより\n予約を完了できませんでした。\nしばらくしてからもう一度お試しください。"
+    },
+    "changeReservationModal": {
+      "title": "{{ year }}年{{ month }}月{{ day }}日、{{ hour }}時{{ minute }}分に変更しますか?",
+      "message": "変更されたご予約はクリニックの運営時間に確認後、確定されます。運営状況によってご予約が変更・キャンセルされることもあります。",
+      "okText": "確認",
+      "cancelText": "戻る"
+    },
+    "confirmationBeforeReservation": {
+      "title": "予約情報の確認",
+      "description": {
+        "waiting": "クリニックの確認後\n予約が確定されます",
+        "immediate": "今すぐ予約が確定されます"
+      },
+      "reservationTime": "希望日時"
+    },
+    "from": {
+      "event": "イベント",
+      "hospital": "クリニック"
+    },
+    "anesthesiaFollowUpService": {
+      "included": "麻酔\/アフターケア費用込み",
+      "notApplicable": "麻酔\/アフターケア費用なし"
+    },
+    "vat": {
+      "word": "税",
+      "included": "税込み",
+      "notApplicable": "非課税"
+    }
+  },
+  "pages": {
+    "calendar": {
+      "top": {
+        "title": "ご来院希望日の選択",
+        "desc": "ご来院可能な日時を3つ選択してください。申請いただいたご予約は、クリニックからの連絡をもって確定致します。"
+      },
+      "cal": {
+        "year": "年",
+        "momth": "月",
+        "day": "日",
+        "week": {
+          "mon": "月",
+          "tue": "火",
+          "wed": "水",
+          "thu": "木",
+          "fri": "金",
+          "sat": "土",
+          "sun": "日"
+        }
+      },
+      "notification": {
+        "prefix": "予約が",
+        "boldText": "即座に確定",
+        "postfix": "されます。"
+      },
+      "time": {
+        "title": "時間の選択",
+        "empty": "ご来院可能な日時を選択してください。",
+        "remainingSlot": "残り{{ remain }}枠"
+      },
+      "index": {
+        "immediate": "即時予約",
+        "waiting": "クリニックの確認後、予約を確定",
+        "disabled": "空き枠なし"
+      },
+      "select": {
+        "empty": "ご来院希望日"
+      },
+      "wishVisitDate": {
+        "title": "ご希望の日時がありませんか?",
+        "linkText": "来院希望日程を選択"
+      },
+      "button": {
+        "valid": "次へ",
+        "invalid": "次へ",
+        "nextStage": "",
+        "changeReservation": "変更する"
+      },
+      "skip": {
+        "questionForSkippingDateSelection": "",
+        "mediationAfterPurchase": ""
+      },
+      "memo": {
+        "title": "日程調整の際のご要望",
+        "optional": "任意",
+        "description": "ご希望の日時に対応が難しい場合、\n下記の選択事項を基に、予約可能日を提案いたします。",
+        "label1": "希望日なら他の時間帯も可能です。",
+        "label2": "希望時間なら他の日も可能です。",
+        "label3": "直接入力",
+        "placeholder": "ex) 平日の午前のみ可 \/ 6時以降可"
+      },
+      "announcement": {
+        "title": "ご予約の際の注意事項",
+        "description": "ご予約の日時変更・キャンセルをご希望の際は、必ずマイページから操作をお願い致します。当日・無断キャンセルは固くお断りしております。クリニックの営業状況により待ち時間が生じることがありますので、ご了承ください。"
+      },
+      "quickReservation": {
+        "title": "予約者の情報",
+        "edit": "編集",
+        "name": "予約者",
+        "phoneNumber": "電話番号",
+        "email": "メール",
+        "otherWishes": "その他\n希望事項"
+      }
+    },
+    "form": {
+      "scheduleOfVisit": {
+        "title": "選択したご来院希望日程"
+      },
+      "input": {
+        "name": {
+          "label": "お名前（カタカナフルネーム）",
+          "placeholder": "カタカナフルネームでご入力ください。",
+          "pattern": "^[ぁ-ゔゞァ-・ヽヾ゛゜ーa-zA-Z\\s]+$",
+          "errorMessage": "カタカナで入力してください。"
+        },
+        "phoneNumber": {
+          "label": "電話番号",
+          "placeholder": "例) 09012345678",
+          "pattern": "^[0-9]{10,14}$",
+          "errorMessage": "電話番号を正しい形式で入力してください。"
+        },
+        "email": {
+          "label": "メールアドレス",
+          "placeholder": "ご連絡可能なメールアドレスをご入力ください。",
+          "pattern": "^[a-zA-Z0-9.!#$%&’*+\/=?^_`{|}~-]+@[a-zA-Z0-9-\\.]+\\.[a-z]{2,}$",
+          "errorMessage": "メールアドレスとして正しい形式で入力してください。"
+        },
+        "dateOfBirth": {
+          "label": "生年月日",
+          "placeholder": "例)20020101",
+          "pattern": "^(19[0-9][0-9]|20\\d{2})(0[0-9]|1[0-2])(0[1-9]|[1-2][0-9]|3[0-1])$",
+          "errorMessage": "生年月日を８桁で入力してください。"
+        },
+        "gender": {
+          "label": "性別",
+          "button1": "女性",
+          "button2": "男性",
+          "errorMessage": "性別が選択されていません。性別を選択してください。"
+        },
+        "history": {
+          "label": "クリニックへのご要望(任意)",
+          "placeholder": "クリニックへご要望がある方は、ご自由に記入ください。\n例）当日施術希望、カウンセリング希望、服用している薬があります、など。"
+        }
+      },
+      "submit": {
+        "text": "予約を申請する",
+        "reservation": "予約を申請する",
+        "immediateReservation": "予約を確定する",
+        "next": "次へ"
+      },
+      "error": {
+        "message": "予約の申請に失敗しました。もう一度お願いいたします。"
+      },
+      "warning": {
+        "title": "上記の内容をもう一度ご確認ください。",
+        "desc": "ご入力いただいた電話番号あるいはメールアドレスにクリニックからご連絡を差し上げます。"
+      },
+      "agree": {
+        "desc": "当社がご予約クリニックに対し、ユーザーの個人情報を予約に関する連絡目的で提供し、ご予約クリニックからサービス品質向上および契約履行のためにユーザーの施術情報を受け取ることに同意します。提供する個人情報の詳細は",
+        "linkText": "こちら"
+      },
+      "alert": {
+        "ok": "確認",
+        "error": {
+          "unexpectedSystemError": "まだ予約が完了していません。しばらく待ってから改めて試みてください。",
+          "thresholdHasBeenReached": "もう予約がいっぱいになっています。他の時間帯での予約をお願いします。",
+          "reservationIsClosed": "クリニックが予約を受け付けていません。クリニックに電話してお問い合わせしましょう。",
+          "eventIsClosed": "クリニックが予約を受け付けていません。クリニックに電話してお問い合わせしましょう。"
+        }
+      }
+    },
+    "complete": {
+      "top": {
+        "title": "クリニックの確認待ち",
+        "desc": "クリニックの運営時間に\nご予約を確認後、確定されます。\n確定した日程はメールでお送りいたします。",
+        "immediateReservationPendingTitle": "予約を確定中です",
+        "immediateReservationPendingDescription": "予約を確定するまで最大４秒かかります。\n少々お待ちください。",
+        "immediateReservationCompleteTitle": "予約が確定されました！",
+        "immediateReservationCompleteDescription": "即時予約は予約完了時点で予約が確定いたします。\n予約日時にご来院ください。",
+        "immediateReservationCompleteSub": "クリニックの予約状況により\n日時調整をさせて頂くこともあります。"
+      },
+      "result": {
+        "name": "予約者",
+        "phoneNumber": "電話番号",
+        "email": "メール",
+        "dateOfBirth": "生年月日",
+        "gender": {
+          "label": "性別",
+          "text1": "女性",
+          "text2": "男性"
+        },
+        "history": "その他ご相談事項",
+        "memo": "日程調整時のご要望",
+        "wishDate": "ご来院希望日程",
+        "confirmDate": "確定したご来院日",
+        "selectedHospital": "選択したクリニック",
+        "selectedTreatment": "選択した施術",
+        "copyAddress": "住所をコピー",
+        "callToHospital": "電話で予約をキャンセル・変更する",
+        "userInformationTitle": "予約者の情報",
+        "year": "年",
+        "month": "月",
+        "day": "日",
+        "hour": "時",
+        "minute": "分"
+      },
+      "pointRedeemedAmount": {
+        "title": "ポイントのご利用",
+        "label": "利用したポイント",
+        "confirmed": "利用したポイント",
+        "description": "クリニックで決済される際、施術総額から{{amount}}円を除いた残りの金額のみお会計ください。"
+      },
+      "button": "予約履歴を見る",
+      "announcement": {
+        "title": "注意事項",
+        "description": "当日の施術はカウンセリングの上、医師の判断のもと行います。\n施術ができない場合もございますのでご了承ください。\n施術に関してご不明な点がある場合はクリニックへ直接ご相談ください。"
+      },
+      "vat": {
+        "word": "税",
+        "included": "税込み",
+        "notApplicable": "非課税"
+      }
+    },
+    "detail": {
+      "button": {
+        "cancelReservation": "予約をキャンセルする",
+        "changeReservation": "予約を変更する"
+      },
+      "cancelReservation": {
+        "headerTitle": "予約キャンセル",
+        "title": "キャンセルする理由は何ですか？",
+        "description": "より良いサービスを提供するため、キャンセルする理由を下から選んでください",
+        "reason": {
+          "RCR001": "他に良いクリニック\/ドクター\/イベントが見つかった",
+          "RCR002": "都合が合わなくなった",
+          "RCR003": "施術を受ける気がなくなった",
+          "RCR004": "クリニックから連絡が来ない",
+          "RCR005": "クリニックの対応が悪い",
+          "RCR006": "その他"
+        },
+        "submit": "この予約をキャンセルする",
+        "failedToast": "一時的なエラーによりキャンセルできませんでした。\nしばらくしてからもう一度お試しください"
+      },
+      "changeReservation": {
+        "buttonText": "予約を変更する",
+        "modalTitle": "ご予約の変更可能回数が{{count}}回あります。変更しますか?",
+        "modalOkText": "確認",
+        "modalCancelText": "戻る"
+      },
+      "reservationCancelAndChangeNotice": "予約の変更・キャンセルはご予約の前日まで可能です。当日キャンセルの場合、お電話にてクリニックへ直接ご連絡をお願いいたします。",
+      "swelling": {
+        "title": "口コミを投稿してアフターケアパッケージをもらいましょう!",
+        "completeReviewTitle": "이 시술의 평가를 완료했어요",
+        "description": "イベント申し込み後、手術の口コミを投稿すれば1万円相当のパッケージがもらえます。",
+        "completeReviewDescription": "달라진 내용이 있다면 평가를 수정해보세요.",
+        "guide": "韓国滞在中で、韓国の住所に配送できる方のみ申請可能です。申請してから、3営業日内に受け取ることができます。",
+        "button": "평가하기",
+        "editButton": "평가 수정하기"
+      }
+    },
+    "history": {
+      "title": {
+        "waitingReservation": "予約確定待ち",
+        "confirmReservation": "予約確定",
+        "cancelReservation": "予約のキャンセル",
+        "completeReservation": "施術完了"
+      },
+      "waitingReservationCallout": {
+        "title": "クリニックの運営時間にご予約を確認後、確定されます。",
+        "description": "確定した日程はメールでお送りいたします。"
+      },
+      "confirmReservationCallout": {
+        "title": "下記の日程で予約が確定しました。"
+      },
+      "cancelReservationCallout": {
+        "title": "予約がキャンセルされました。"
+      },
+      "completeReservationCallout": {
+        "title": "来院し、施術を完了しました。"
+      },
+      "gender": {
+        "label": "性別",
+        "text1": "女性",
+        "text2": "男性"
+      }
+    }
+  }
+}
