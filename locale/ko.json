@@ -1,0 +1,319 @@
+{
+    "main": {
+        "title": "안녕하세요",
+        "desc": "설명문구 입니다"
+    },
+    "point": {
+        "offlinePointRedemption": {
+            "available": "클리닉에서 결제 시 포인트를 사용할 수 있는 시술입니다.",
+            "unavailable": "포인트를 이용할 수 없는 클리닉입니다."
+        },
+        "offlinePointRedeemBanner": {
+            "title": "포인트를 사용해서 결제해 보세요!",
+            "description": "아직 클리닉에서 결제하기 전이라면 1P=1엔으로 포인트를 사용할 수 있습니다.",
+            "button": "포인트 사용해서 결제하기"
+        }
+    },
+    "common": {
+        "title": "내원일 선택",
+        "changeReservatonTitle": "예약 변경",
+        "preview": {
+            "title": "내원 희망 일정"
+        },
+        "confirm": {
+            "title": "내원 일정 선택을 취소하시겠어요?",
+            "message": "일정 선택을 완료하지 않으면, 내원 예약을 위해 병원에서 별도로 연락을 드립니다.",
+            "okText": "전 단계로 돌아가기",
+            "cancelText": "내원일 계속 정하기"
+        },
+        "toast": {
+            "failToRequestFromServer": "시간이 마감되거나 일시적인 오류로 예약이 완료되지 못했어요.\n잠시 후 다시 시도해주세요."
+        },
+        "changeReservationModal": {
+            "title": "{{ year }}년 {{ month }}월 {{ day }}일, {{ hour }}시 {{ minute }}분으로 변경하시겠어요?",
+            "message": "변경된 시간은 병원 운영시간에 확인 후 확정돼요. 운영 상황에 따라 일정이 조율되거나 취소될 수 있어요.",
+            "okText": "확인",
+            "cancelText": "취소"
+        },
+        "confirmationBeforeReservation": {
+            "title": "예약정보확인",
+            "description": {
+                "waiting": "<0>잠시만요!<\/0><1>병원 확인 후 예약이 확정<\/1>돼요.",
+                "immediate": "예약이 바로 확정돼요"
+            },
+            "reservationTime": "예약일시"
+        },
+        "from": {
+            "event": "이벤트",
+            "hospital": "병원"
+        },
+        "anesthesiaFollowUpService": {
+            "included": "마취\/사후관리비 포함",
+            "notApplicable": "마취\/사후관리비 없음"
+        },
+        "vat": {
+            "word": "VAT",
+            "included": "VAT 포함",
+            "notApplicable": "VAT 비대상"
+        }
+    },
+    "pages": {
+        "calendar": {
+            "top": {
+                "title": "날짜 선택",
+                "desc": "병원에 방문하실 수 있는 날짜와 시간을 3개 선택해주세요. 선택하신일정에 최대한 맞추어 병원에서 메일 및 전화를 통해 연락드릴 예정입니다."
+            },
+            "cal": {
+                "year": "년",
+                "momth": "월",
+                "day": "일",
+                "week": {
+                    "mon": "월",
+                    "tue": "화",
+                    "wed": "수",
+                    "thu": "목",
+                    "fri": "금",
+                    "sat": "토",
+                    "sun": "일"
+                }
+            },
+            "notification": {
+                "prefix": "예약이",
+                "boldText": "실시간으로 확정",
+                "postfix": "됩니다."
+            },
+            "time": {
+                "title": "시간 선택",
+                "empty": "예약 가능한 시간이 없습니다. 다른 날짜를 선택해주세요",
+                "remainingSlot": "{{ remain }}자리 남음"
+            },
+            "index": {
+                "immediate": "바로 예약 확정",
+                "waiting": "병원 확인 후 예약 확정",
+                "disabled": "예약 마감"
+            },
+            "select": {
+                "empty": "희망일정"
+            },
+            "wishVisitDate": {
+                "title": "원하는 날짜\/시간이 없나요?",
+                "linkText": "희망내원일 선택하기"
+            },
+            "button": {
+                "valid": "다음",
+                "invalid": "내원일 요청하기",
+                "nextStage": "다음 단계로",
+                "changeReservation": "내원일 변경하기"
+            },
+            "skip": {
+                "questionForSkippingDateSelection": "원하는 날짜\/시간이 없나요?",
+                "mediationAfterPurchase": "결제 후, 전화로 병원과 시간 조율할게요."
+            },
+            "memo": {
+                "title": "일정 조율시 희망 사항",
+                "optional": "선택",
+                "description": "고객님이 선택한 일정에 예약이 힘든경우, 병원에서 아래 선택사항을 바탕으로 다른 예약일을 제안드려요.",
+                "label1": "선택한 날짜라면 다른 시간도 가능해요.",
+                "label2": "선택한 시간대라면 다른 날짜도 가능해요.",
+                "label3": "직접입력",
+                "placeholder": "고객님이 가능한 일정을 알려주세요.\nex) 평일 오전에만 가능 \/ 6시 이후 가능"
+            },
+            "announcement": {
+                "title": "예약 시 안내사항",
+                "description": "노쇼 대신 앱으로 예약 변경\/취소를 해주세요.\n병원 상황에 따라 대기 시간이 발생할 수 있어, 이 점 참고하여 방문해 주세요."
+            },
+            "quickReservation": {
+                "title": "예약자 정보",
+                "edit": "수정",
+                "name": "예약자",
+                "phoneNumber": "전화번호",
+                "email": "이메일",
+                "otherWishes": "예약 시 요청 사항"
+            }
+        },
+        "form": {
+            "scheduleOfVisit": {
+                "title": "선택한 희망 내원일"
+            },
+            "input": {
+                "name": {
+                    "label": "이름",
+                    "placeholder": "이름을 입력해주세요.",
+                    "pattern": "",
+                    "errorMessage": "한글로 입력해주세요."
+                },
+                "phoneNumber": {
+                    "label": "전화번호",
+                    "placeholder": "예 : 09012345678",
+                    "pattern": "[0-9]{8,15}",
+                    "errorMessage": "전화번호를 올바른 형식으로 입력해주세요."
+                },
+                "email": {
+                    "label": "이메일",
+                    "placeholder": "연락받을 메일을 입력해주세요.",
+                    "pattern": "^[a-zA-Z0-9.!#$%&’*+\/=?^_`{|}~-]+@[a-zA-Z0-9-\\.]+\\.[a-z]{2,}$",
+                    "errorMessage": "이메일 주소를 올바른 형식으로 입력해주세요."
+                },
+                "dateOfBirth": {
+                    "label": "생년월일",
+                    "placeholder": "예: 20020101",
+                    "pattern": "^(19[0-9][0-9]|20\\d{2})(0[0-9]|1[0-2])(0[1-9]|[1-2][0-9]|3[0-1])$",
+                    "errorMessage": "생년월일을 입력해주세요."
+                },
+                "gender": {
+                    "label": "성별",
+                    "button1": "여성",
+                    "button2": "남성",
+                    "errorMessage": "성별이 선택되지 않았어요.성별을 선택해 주세요."
+                },
+                "history": {
+                    "label": "과거 시술 경험(선택)",
+                    "placeholder": "해당 부위의 수술이나 시술 경험이 있다면 알려주세요. 빠르게 원활한 상담에 도움이 됩니다."
+                }
+            },
+            "submit": {
+                "text": "예약 신청 완료",
+                "reservation": "예약 신청 완료",
+                "immediateReservation": "예약 신청 완료",
+                "next": "다음"
+            },
+            "error": {
+                "message": "상담신청에 실패하였습니다. 다시 요청해주세요."
+            },
+            "warning": {
+                "title": "위의 내용을 다시 한번 확인해 주세요.",
+                "desc": "입력해주신 전화번호로 병원에서 연락을 드려요"
+            },
+            "agree": {
+                "desc": "当社がご予約クリニックに対し、ユーザーの個人情報を予約に関する連絡目的で提供し、ご予約クリニックからサービス品質向上および契約履行のためにユーザーの施術情報を受け取ることに同意します。提供する個人情報の詳細は",
+                "linkText": "こちら"
+            },
+            "alert": {
+                "ok": "확인",
+                "error": {
+                    "unexpectedSystemError": "예약을 완료하지 못했어요. 잠시 후 다시 시도해주세요.",
+                    "thresholdHasBeenReached": "이미 예약이 마감되었어요. 다른 시간으로 예약해주세요.",
+                    "reservationIsClosed": "병원이 예약을 받을 수 없는 상태입니다. 병원에 전화로 문의해주세요.",
+                    "eventIsClosed": "병원이 예약을 받을 수 없는 상태입니다. 병원에 전화로 문의해주세요."
+                }
+            }
+        },
+        "complete": {
+            "top": {
+                "title": "병원에서 예약 확인중",
+                "desc": "병원 운영시간에 예약 확인 후 확정됩니다.\n아래 입력하신 정보로\n확정 알림톡을 보내드립니다.\n(운영 상황에 따라 일정 조율 연락을 받을 수 있어요.)",
+                "immediateReservationPendingTitle": "예약을 확정하는 중",
+                "immediateReservationPendingDescription": "예약을 확정하기까지 최대 4초정도 걸려요.\n잠시만 기다려주세요.",
+                "immediateReservationCompleteTitle": "예약을 바로 확정했어요!",
+                "immediateReservationCompleteDescription": "기다림 없이 바로 예약을 완료했어요.\n예약한 날짜와 시간에 늦지 않게 내원해주세요.",
+                "immediateReservationCompleteSub": "병원의 운영 상황에 따라 일정 조율 연락을 받을 수 있어요."
+            },
+            "result": {
+                "name": "예약자",
+                "phoneNumber": "전화번호",
+                "email": "메일주소",
+                "dateOfBirth": "생년월일",
+                "gender": {
+                    "label": "성별",
+                    "text1": "여성",
+                    "text2": "남성"
+                },
+                "history": "과거 시술 경험",
+                "memo": "일정 조율 시 희망 사항",
+                "wishDate": "요청한 예약 일시",
+                "confirmDate": "확정된 예약일",
+                "selectedHospital": "선택한 병원",
+                "selectedTreatment": "선택한 시술",
+                "copyAddress": "주소복사",
+                "callToHospital": "예약 취소\/변경은 병원에 전화하기",
+                "userInformationTitle": "예약자 정보",
+                "year": "년",
+                "month": "월",
+                "day": "일",
+                "hour": "시",
+                "minute": "분"
+            },
+            "pointRedeemedAmount": {
+                "title": "포인트 사용",
+                "label": "사용한 액수",
+                "confirmed": "클리닉 직원 확인 완료",
+                "description": "클리닉에서 결제 시 총 결제 금액에서 {{amount}}엔을 제외한 나머지 금액만 결제해 주세요."
+            },
+            "button": "예약 내역 보기",
+            "announcement": {
+                "title": "알려드립니다",
+                "description": "간편예약은 소비자 편의를 위해 제공되는 기능으로 강남언니는 해당 기능에 대하여 의료기관으로부터 일체의 대가를 수수하거나 소비자와 의료기관 간의 거래의 당사자가 아니며 이를 중개하지 않아요. 따라서, 예약 일정 및 수술\/시술 내용과 관련된 추가 문의는 해당 의료기관에 문의해 주세요."
+            },
+            "vat": {
+                "word": "VAT",
+                "included": "VAT 포함",
+                "notApplicable": "VAT 비대상"
+            }
+        },
+        "detail": {
+            "button": {
+                "cancelReservation": "예약 취소하기",
+                "changeReservation": "예약 변경하기"
+            },
+            "cancelReservation": {
+                "headerTitle": "예약 취소",
+                "title": "취소 사유 입력",
+                "description": "더 나은 서비스를 제공하기 위해 취소 사유를 선택해주세요.",
+                "reason": {
+                    "RCR001": "더 나은 병원\/의사\/이벤트를 발견했어요.",
+                    "RCR002": "일정에 맞출 수 없어요",
+                    "RCR003": "시술을 받을 마음이 없어졌어요.",
+                    "RCR004": "병원이 연락이 없어요",
+                    "RCR005": "병원의 서비스가 불만족스러워요",
+                    "RCR006": "기타"
+                },
+                "submit": "취소 완료하기",
+                "failedToast": "일시적인 오류로 예약을 취소하지 못했어요.\n잠시 후 다시 시도해주세요."
+            },
+            "changeReservation": {
+                "buttonText": "예약 변경하기",
+                "modalTitle": "예약 변경 횟수가 {{count}}회 남았어요.\n변경하시겠어요?",
+                "modalOkText": "확인",
+                "modalCancelText": "취소"
+            },
+            "reservationCancelAndChangeNotice": "예약 변경\/취소는 내원 1일 전까지 가능해요. 당일 변경\/취소는 병원에 전화해주세요.",
+            "swelling": {
+                "title": "평가 작성하고 붓기패키지 받아가세요!",
+                "completeReviewTitle": "이 시술의 평가를 완료했어요",
+                "description": "수술 평가를 완료하면 10만원 상당의\n패키지를 받을 수 있어요.",
+                "completeReviewDescription": "달라진 내용이 있다면 평가를 수정해보세요.",
+                "guide": "한국에 체류중이면서 한국 주소지로 신청하는 경우에만 가능해요. 신청 시 영업일 기준 3일 이내에 받을 수 있어요.",
+                "button": "평가하기",
+                "editButton": "평가 수정하기"
+            }
+        },
+        "history": {
+            "title": {
+                "waitingReservation": "예약 확정 대기중",
+                "confirmReservation": "예약 확정",
+                "cancelReservation": "예약 취소",
+                "completeReservation": "시술 완료"
+            },
+            "waitingReservationCallout": {
+                "title": "병원에서 예약을 확인 후 일정을 확정해드려요.",
+                "description": "아래 입력하신 정보로 확정 알림톡을 보내드립니다."
+            },
+            "confirmReservationCallout": {
+                "title": "아래 일정으로 예약이 확정되었어요."
+            },
+            "cancelReservationCallout": {
+                "title": "예약이 취소되었어요."
+            },
+            "completeReservationCallout": {
+                "title": "내원 후 시술이 완료되었어요."
+            },
+            "gender": {
+                "label": "성별",
+                "text1": "여성",
+                "text2": "남성"
+            }
+        }
+    },
+    "inner": "내부 프로젝트",
+    "inner2": "내부 프로젝트2"
+}
