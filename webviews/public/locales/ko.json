@@ -3,5 +3,7 @@
   "inner2": "내부 프로젝트2",
   "innerObj": {
     "title": "타이틀입니다"
-  }
+  },
+  "consultationButton": "상담받기",
+  "purchaseButton": "앱에서 결제"
 }
